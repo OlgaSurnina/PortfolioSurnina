@@ -1,14 +1,335 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./image/logo.svg" sizes="any">
+  <link rel="icon" href="./image/logo.svg" type="image/svg+xml">
   <title>PortfolioSurnina</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body class="body">
+  <div class="conteiner">
+    <header class="header">
+      <nav class="navbar">
+        <div class="navbar-box">
+          <div class="navbar__wrap">
+            <div class="hamburger">
+              <div class="hamburger__field" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+            <a href="#" id="logo" class="logo"><img src="./image/logo.svg" alt="logo" /></a>
+            <ul class="menu" id="menu">
+              <li><a href="./index.html">Главная</a></li>
+              <li><a href="#">Услуги</a></li>
+              <li><a href="#">Цены</a></li>
+              <li><a href="#">Портфолио</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="./rewiew.html">Отзывы</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="popup" id="popup"></div>
+    </header>
 
+    <main>
+      <section class="lead">
+        <h1 class="lead__title">Путешествия по России</h1>
+        <h3 class="lead__subtitle">
+          Настоящая страна не в выпусках новостей, а здесь.
+        </h3>
+        <div class="lead__pic">
+          <img src="./image/titpic.jpg" alt="фото" />
+          <img class="lead__picmap" src="./image/titpicmap.svg" alt="маршрут" />
+          <span class="lead__caption"> ваша полка — верхняя </span>
+        </div>
+      </section>
+      <section class="intro">
+        <h3 class="intro__title">Чего мы там не видели?</h3>
+        <p class="intro__text">
+          По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
+          36% планируют провести отпуск в родной стране. Мол, чего мы тут,
+          дома, не видели? На самом деле, Россия — это целая вселенная с
+          ласковым морем юга, густыми лесами Саян и суровыми льдами плато
+          Путорана. А ещё увидеть все эти красоты можно без миллионов на
+          счету, загранпаспорта и многочасовых перелетов. Как, например, Вера
+          Башмакова — смелая молодая мама, которая взяла в охапку троих детей,
+          усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
+          стране. Мы выбрали и описали некоторые интересные места, достойные
+          вашего отпуска.
+        </p>
+        <ul class="intro__list">
+          <li>Часовых поясов 11</li>
+          <li>Объектов природного наследия ЮНЕСКО 12</li>
+          <li>Объектов культурного наследия ЮНЕСКО 16</li>
+          <li>Природных заповедников 105</li>
+          <li>Аэропортов 241</li>
+        </ul>
+      </section>
+      <section class="slider__wrap">
+        <div class="slider__viewport" id="slider__viewport">
+          <div class="slider">
+            <div class="slide active">
+              <img src="./image/./коса.jpg" alt="куршская коса1" />
+            </div>
+            <div class="slide">
+              <img src="./image/./коса2.jpg" alt="куршская коса2" />
+            </div>
+            <div class="slide">
+              <img src="./image/кольский.jpg" alt="кольский полуостов1" />
+            </div>
+            <div class="slide">
+              <img src="./image/кольский2.jpg" alt="кольский полуостов2" />
+            </div>
+            <div class="slide"><img src="./image/алтай.jpg" alt="алтай1" /></div>
+            <div class="slide">
+              <img src="./image/./алтай2.jpeg" alt="алтай2" />
+            </div>
+            <div class="slide">
+              <img src="./image/./байкал.jpg" alt="байкал1" />
+            </div>
+            <div class="slide">
+              <img src="./image/./байкал2.jpg" alt="байкал2" />
+            </div>
+            <div class="slide">
+              <img src="./image/./карелия.jpeg" alt="карелия1" />
+            </div>
+            <div class="slide">
+              <img src="./image/./карелия2.jpg" alt="карелия2" />
+            </div>
+          </div>
+        </div>
+        <div class="slider__control">
+          <div class="slider__control-btn slider__control-btn-prev" id="slider__control-btn-prev">
+            <img src="./image/arrow-back-ios_119432.svg" alt="вперед" />
+          </div>
+          <div class="slider__control-btn slider__control-btn-next" id="slider__control-btn-next">
+            <img src="./image//arrow-forward-ios_119426.svg" alt="назад" />
+          </div>
+        </div>
+        <div class="slider__pagination">
+          <div id="namber-slide"></div>
+          <div class="namber-slide"></div>
+          <div class="namber-slide"></div>
+          <div class="namber-slide"></div>
+          <div class="namber-slide"></div>
+          <div class="namber-slide"></div>
+          <div class="namber-slide"></div>
+          <div class="namber-slide"></div>
+          <div class="namber-slide"></div>
+          <div class="namber-slide"></div>
+          <div class="namber-slide"></div>
+          <div class="namber-slide"></div>
+        </div>
+      </section>
+      <section class="photo-grid">
+        <div>
+          <img src="./image/grid1.jpg" alt="1" />
+        </div>
+        <div>
+          <img src="./image/grid2.jpg" alt="2" />
+        </div>
+        <div>
+          <img src="./image/grid3.jpg" alt="3" />
+        </div>
+        <div>
+          <img src="./image/grid4.jpg" alt="4" />
+        </div>
+        <div>
+          <img src="./image/grid5.jpg" alt="5" />
+        </div>
+        <div>
+          <img src="./image/grid6.jpg" alt="6" />
+        </div>
+        <div>
+          <img src="./image/grid7.jpg" alt="7" />
+        </div>
+        <div>
+          <img src="./image/grid8.jpg" alt="8" />
+        </div>
+        <div>
+          <img src="./image/grid9.jpg" alt="9" />
+        </div>
+        <div>
+          <img src="./image/grid10.jpg" alt="10" />
+        </div>
+        <div>
+          <img src="./image/grid11.jpg" alt="11" />
+        </div>
+        <div>
+          <img src="./image/grid12.jpg" alt="12" />
+        </div>
+      </section>
+
+      <section class="plases">
+        <div class="plase">
+          <div class="plase__column">
+            <h2>Куршская коса</h2>
+            <img class="plase__pic" src="./image/plase1.jpg" alt="Куршская коса" />
+          </div>
+          <div class="plase__column">
+            <span>URL</span>
+            <div></div>
+            <a href="http://park-kosa.ru" target="_blank"> park-kosa.ru</a>
+            <p class="plase__text">
+              Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
+              водных горизонта — спокойного Куршского залива с одной стороны и
+              подёрнутого рябью волн Балтийского моря с другой. Уникальная
+              природная зона на краю российского анклава.
+            </p>
+            <p>
+              На этом Калининградская область не заканчивается. Для
+              путешественника и исследователя там же по соседству — самая
+              западная точка России, Балтийская коса, — и немецкое наследие
+              россыпи небольших приморских городов. Атмосфера здешних мест
+              исключает суету, окуная в спокойствие природы и запах стального,
+              прохладного моря.
+            </p>
+          </div>
+        </div>
+        <div class="plase">
+          <div class="plase__column">
+            <h2>Кольский</h2>
+            <img class="plase__pic" src="./image/plase2.jpg" alt="Куршская коса" />
+          </div>
+          <div class="plase__column">
+            <span>URL</span>
+            <div></div>
+            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">
+              National Geographic</a>
+            <p class="plase__text">
+              Почти весь полуостров находится за Полярным кругом. Саамская
+              тундра, от которой на юг — тайга, а на север — Ледовитый океан,
+              прикидывающийся Баренцевым морем.
+            </p>
+            <p>
+              Возможно, вы смотрели Звягинцева и даже слышали историю
+              арктического фестиваля в Териберке. Возможно, слово «Хибины» не
+              осталось под снегом школьных воспоминаний об уроках географии.
+              Возможно, вы не интересовались пронизывающей земную кору
+              сверхглубокой скважиной, а от апатитов вас давно накрывает
+              апатия. Но ваша мечта увидеть северное сияние начинает сбываться
+              с билетом в Мурманск.
+            </p>
+          </div>
+        </div>
+        <div class="plase">
+          <div class="plase__column">
+            <h2>Алтай</h2>
+            <img class="plase__pic" src="./image/plase3.jpg" alt="Алтай" />
+          </div>
+          <div class="plase__column">
+            <span>URL</span>
+            <div></div>
+            <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">
+              YouTube</a>
+            <p class="plase__text">
+              Алтай — одно из красивейших мест в России. В первую очередь
+              из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные
+              соснами, горные реки и озёра. А если вы откроете в автомобиле
+              окна, сможете познакомиться с невидимым чудом здешних мест —
+              горным воздухом.
+            </p>
+            <p>
+              Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом.
+              Так вы увидите всё разнообразие местной флоры и фауны. По лесам
+              Алтая бродят лоси, над хребтами летают орлы, а на равнинах
+              пасутся косули. И знаменитые манулы — тоже обитатели Алтайского
+              края.
+            </p>
+          </div>
+        </div>
+        <div class="plase">
+          <div class="plase__column">
+            <h2>Зимний Байкал</h2>
+            <img class="plase__pic" src="./image/plase4.jpg" alt="Байкал>" />
+          </div>
+          <div class="plase__column">
+            <span>URL</span>
+            <div></div>
+            <a href="https://vk.com/baikalmile" target="_blank">
+              https://vk.com/baikalmile</a>
+            <p class="plase__text">
+              Всем известен Байкал как крупнейшее озеро в мире. Многие также
+              знают, что это самый большой источник пресной воды и одно из
+              красивейших мест в России.
+            </p>
+            <p>
+              Конечно, это всё так. Но Байкал ещё идеальное место для
+              соревнований по скийорингу. Это такой вид спорта, когда лыжник
+              привязывает себя к мотоциклу, и тандем старается развить как
+              можно бóльшую скорость на льду. В марте 2019 года на фестивале
+              «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
+            </p>
+          </div>
+        </div>
+        <div class="plase">
+          <div class="plase__column">
+            <h2>Карелия</h2>
+            <img class="plase__pic" src="./image/plase5.jpg" alt="Карелия>" />
+          </div>
+          <div class="plase__column">
+            <span>URL</span>
+            <div></div>
+            <a href="http://vodlozero.ru" target="_blank">
+              http://vodlozero.ru
+            </a>
+            <p class="plase__text">
+              Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
+              сибирская лиственница не растёт западнее Водлозера. Зато здесь
+              она вымахивает на 30 метров — леса карельских национальных
+              парков из-за непроходимых болот никогда не знали топора.
+              Некоторым соснам уже больше чем полтысячелетия.
+            </p>
+            <p>
+              Прикоснитесь к живому существу, видевшему солнце раньше, чем
+              увидал его Иван Грозный. В девственном лесу на сотню километров
+              не встретишь тропы. А на редких тропинках деревья в паре метров
+              от земли помечены медвежьими когтями. Чтобы все знали, кто тут
+              хозяин.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="cover">
+        <div class="cover-box">
+          <img class="cover-box__pic" src="./image/background.jpg" alt="железнодорожные пути" />
+          <div class="cover-box__text">
+            <h2>
+              <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">До Байкала «на собаках»</a>
+            </h2>
+            <p>
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+<footer class="footer">
+  <div class="footer__navigation">
+    <a href="https://yandex.ru/maps" target="_blank">Карты</a>
+    <a href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+    <a href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+    <a href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+    <a href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+  </div>
+  <div class="autor">
+    © 2023
+    <a class="autor_link" href="https://github.com/OlgaSurnina">Сурнина Ольга</a>
+  </div>
+</footer>
+</div>
+<script src="./app/index.js"></script>
 </body>
 
 </html>
