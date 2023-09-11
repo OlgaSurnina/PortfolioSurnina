@@ -21,8 +21,8 @@
 @import url('./blocs/plase/__column/plase__column.css');
 @import url('./blocs/cover/cover.css');
 @import url('./blocs/cover-box/cover-box.css');
-@import url('./blocs/cover-box/__text/cover-box__text.css');
-@import url('./blocs/cover-box/__pic/cover-box__pic.css');
+@import url('./blocs/cover-box/cover-box__text.css');
+@import url('./blocs/cover-box/cover-box__pic.css');
 @import url('./blocs/footer/footer.css');
 @import url('./blocs/footer/__navigation/footer__navigation.css');
 @import url('./blocs/autor/autor_link.css');
