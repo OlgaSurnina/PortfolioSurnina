@@ -1,0 +1,43 @@
+.lead__pic {
+    width: 984px;
+    height: 615px;
+    background-size: 984px 615px;
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+@media screen and (min-width: 320px) and (max-width:1024px){
+    .lead__pic {
+        width: 924px;
+        height: 580px;
+        background-size: 924px 580px;
+}
+.lead__pic img{
+    width: 924px;
+    height: 580px;
+}
+}
+@media screen and (min-width: 320px) and (max-width:768px){
+    .lead__pic {
+        width: 764px;
+        height: 480px;
+        background-size: 764px 480px;
+}
+.lead__pic img{
+    width: 764px;
+    height: 480px;
+}
+}
+@media screen  and (max-width:320px){
+    .lead__pic {
+        width: 320px;
+        height: 200px;
+        background-size: 320px 200px;
+}
+.lead__pic img{
+    width: 320px;
+    height: 200px;
+}
+}

@@ -1,0 +1,28 @@
+.plase {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    align-items:center;
+
+}
+.plase:last-child{
+    margin-bottom: 100px;
+}
+@media screen and (min-width: 320px) and (max-width:768px){
+    .plase {
+        gap: 28px;
+    }
+    .plase:last-child{
+        margin-bottom: 60px;
+    }
+}
+@media screen  and (max-width:320px){
+    .plase {
+        gap: 16px;
+        align-items:center;
+    
+    }
+    .plase:last-child{
+        margin-bottom: 50px;
+    }
+}

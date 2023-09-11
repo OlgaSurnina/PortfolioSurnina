@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(./blocs/body/body.css);
+@import url(./blocs/conteiner/conteiner.css);
+@import url(./blocs/header/header.css);
+@import url(./blocs/header/__logo/header__logo.css);
+@import url(./blocs/header/__lang/header__lang.css);
+@import url(./blocs/lead/lead.css);
+@import url(./blocs/lead/__title/lead__title.css);
+@import url(./blocs/lead/__subtitle/lead__subtitle.css);
+@import url(./blocs/lead/__pic/lead__pic.css);
+@import url(./blocs/lead/__picmap/lead__picmap.css);
+@import url(./blocs/lead/__caption/lead__caption.css);
+@import url(./blocs/intro/intro.css);
+@import url(./blocs/intro/__title/intro__title.css);
+@import url(./blocs/intro/__text/intro__text.css);
+@import url(./blocs/intro/__list/intro__list.css);
+@import url(./blocs/photo-grid/photo-grid.css);
+@import url(./blocs/plases/plases.css);
+@import url(./blocs/plase/plase.css);
+@import url(./blocs/plase/__pic/plase__pic.css);
+@import url(./blocs/plase/__column/plase__column.css);
+@import url(./blocs/cover/cover.css);
+@import url(./blocs/cover-box/cover-box.css);
+@import url(./blocs/cover-box/__text/cover-box__text.css);
+@import url(./blocs/cover-box/__pic/cover-box__pic.css);
+@import url(./blocs/footer/footer.css);
+@import url(./blocs/footer/__navigation/footer__navigation.css);
+@import url(./blocs/autor/autor_link.css);
+@import url(./blocs/slider/slider.css);
+@import url(./blocs/autor/autor.css);
+@import url(./blocs/review-post/review-post.css);
+@import url(./blocs/burger/burger.css);
+
+

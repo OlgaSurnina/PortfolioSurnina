@@ -1,0 +1,25 @@
+.lead__picmap {
+    position: absolute;
+    left: 30px;
+    top: 93px;
+    z-index: 2;
+}
+@media screen and (min-width: 320px) and (max-width:1024px){
+    .lead__picmap {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:768px){
+    .lead__picmap {
+        left: 0px;
+        top: 0px;
+    }
+}
+@media screen  and (max-width:320px){
+    .lead__picmap {
+        left: 0px;
+        top: 0px;
+    }
+}

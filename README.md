@@ -1,4 +1,3 @@
-# PortfolioSurnina
 # Sinergy-stidy
 
 👋 Hi, I’m @OlgaSurnina
