@@ -2,8 +2,6 @@
 @import url('./blocs/body/body.css');
 @import url('./blocs/conteiner/conteiner.css');
 @import url('./blocs/header/header.css');
-@import url('./blocs/header/header__logo.css');
-@import url('./blocs/header/header__lang.css');
 @import url('./blocs/lead/lead.css');
 @import url('./blocs/lead/lead__title.css');
 @import url('./blocs/lead/lead__subtitle.css');
@@ -30,5 +28,3 @@
 @import url('./blocs/autor/autor.css');
 @import url('./blocs/review-post/review-post.css');
 @import url('./blocs/burger/burger.css');
-
-

@@ -1,20 +1,21 @@
 .lead__title {
-    font-size: 96px;
-    font-weight: 900;
-    line-height: 100px;
-    letter-spacing: 0em;
+  margin: 0;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: center;
+  height: 200px;
+}
+@media screen  and (max-width:320px) {
+  .lead__title {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
     text-align: center;
-    width: 720px;
-    height: 200px;
-}
-@media screen  and (max-width:320px){
-    .lead__title {
-        color: #FFF;
-        text-align: center;
-        font-size: 40px;
-        font-weight: 900;
-        line-height: 44px;
-        width: 288px;
-        height: 88px;
-    } 
-}
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    height: 88px;
+  }
+} 

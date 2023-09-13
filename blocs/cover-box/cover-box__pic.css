@@ -1,26 +1,30 @@
-.cover-box__pic{
-    width: 1180px;
-    height: 740px;
-    opacity: 80%;
+.cover-box__pic {
+  width: 1180px;
+  height: 740px;
+  opacity: 80%;
 }
-.cover-box__pic:hover{
-    opacity: 30%;
+
+.cover-box__pic:hover {
+  opacity: 30%;
 }
-@media screen and (min-width: 320px) and (max-width:1024px){
-    .cover-box__pic{
-        width: 1024px;
-        height: 640px;
-    }
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+  .cover-box__pic {
+    width: 100%;
+    height: 640px;
+  }
 }
-@media screen and (min-width: 320px) and (max-width:768px){
-    .cover-box__pic{
-        width: 768px;
-        height: 480px;
-    } 
+
+@media screen and (min-width: 321px) and (max-width:768px) {
+  .cover-box__pic {
+    width: 100%;
+    height: 480px;
+  }
 }
-@media screen  and (max-width:320px){
-    .cover-box__pic{
-        width: 320px;
-        height: 200px;
-    }
-} 
+
+@media screen and (max-width:320px) {
+  .cover-box__pic {
+    width: 100%;
+    height: 200px;
+  }
+}

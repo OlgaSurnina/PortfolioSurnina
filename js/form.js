@@ -1,4 +1,4 @@
-"use strict"
+
 // бургер
 let hamb = document.querySelector('#hamburger');
 let popup = document.querySelector('#popup');
@@ -30,7 +30,7 @@ function closeOnClick() {
 }
 
 // форма
-let rewiewForm = document.querySelector('form');//форма с которой будем работать
+let rewiewForm = document.getElementById('form');//форма с которой будем работать
 console.log(rewiewForm.elements);
 let rewiewButton = rewiewForm.querySelector('button.review-post__btn');
 let formBtn = rewiewForm.querySelector('button.form__btn');

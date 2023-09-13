@@ -2,84 +2,80 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="../image/logo.svg" sizes="any">
-    <link rel="icon" href="../image/logo.svg" type="image/svg+xml">
-    <title>Registration form</title>
-    <link rel="stylesheet" href="../style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../image/logo.svg" sizes="any">
+  <link rel="icon" href="../image/logo.svg" type="image/svg+xml">
+  <title>Registration form</title>
+  <link rel="stylesheet" href="../style.css" />
 </head>
 
 <body class="body">
-    <div class="conteiner">
-        <header class="header">
-            <nav class="navbar">
-                <div class="navbar-box">
-                    <div class="navbar__wrap">
-                        <div class="hamburger">
-                            <div class="hamburger__field" id="hamburger">
-                                <span class="bar"></span>
-                                <span class="bar"></span>
-                                <span class="bar"></span>
-                            </div>
-                        </div>
-                        <a href="#" id="logo" class="logo"><img src="../image/logo.svg" alt="logo" /></a>
-                        <ul class="menu" id="menu">
-                            <li><a href="../index.html">Главная</a></li>
-                            <li><a href="./services.html">Услуги</a></li>
-                            <li><a href="#">Цены</a></li>
-                            <li><a href="#">Портфолио</a></li>
-                            <li><a href="#">Контакты</a></li>
-                            <li><a href="./rewiew.html">Отзывы</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <div class="popup" id="popup"></div>
-        </header>
+  <div class="conteiner">
+    <header class="header">
+      <nav class="navbar">
+        <div class="navbar-box">
+          <div class="navbar__wrap">
+            <div class="hamburger">
+              <div class="hamburger__field" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+            <a href="#" id="logo" class="logo"><img src="../image/logo.svg" alt="logo" /></a>
+            <ul class="menu" id="menu">
+              <li><a href="../index.html">Главная</a></li>
+              <li><a href="./services.html">Услуги</a></li>
+              <li><a href="./portfolio.html">Портфолио</a></li>
+              <li><a href="./rewiew.html">Отзывы</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="popup" id="popup"></div>
+    </header>
 
-        <main>
-            <form class="review-post">
-                <h4 class="review-post__title">Добавить свой отзыв</h4>
-                <div class="review-post__input">
-                    <div class="review-post__text-field">
-                        <label class="review-post__label-name" for="name"></label>
-                        <input class="review-post__input-name" type="text" name="name" placeholder="Имя и фамилия">
-                        <div class="review-post__input-name-error"><span>Вы забыли указать имя и фамилию</span></div>
-                    </div>
-                    <div class="review-post__text-field">
-                        <label class="review-post__label-rating" for="rating"></label>
-                        <input class="review-post__input-rating" type="number" name="rating" placeholder="Оценка">
-                        <div class="review-post__input-rating-error">Оценка должна быть <br> от 1 до 5 </div>
-                    </div>
-                </div>
-                <div class="review-post__text">
-                    <div class="review-post__text-field">
-                        <label class="review-post__label-textarea" for="text"></label>
-                        <textarea class="review-post__textarea" name="text" placeholder="Текст отзыва"></textarea>
-                    </div>
-                    <button class="review-post__btn" type="submit">Отправить отзыв</button>
-                </div>
-            </form>
-        </main>
-    </div>
-</body>
+    <main>
+      <form class="review-post" id="form">
+        <h4 class="review-post__title">Добавить свой отзыв</h4>
+        <div class="review-post__input">
+          <div class="review-post__text-field">
+            <label class="review-post__label-name" for="name"></label>
+            <input class="review-post__input-name" type="text" name="name" placeholder="Имя и фамилия">
+            <div class="review-post__input-name-error"><span>Вы забыли указать имя и фамилию</span></div>
+          </div>
+          <div class="review-post__text-field">
+            <label class="review-post__label-rating" for="rating"></label>
+            <input class="review-post__input-rating" type="number" name="rating" placeholder="Оценка">
+            <div class="review-post__input-rating-error">Оценка должна быть <br> от 1 до 5 </div>
+          </div>
+        </div>
+        <div class="review-post__text">
+          <div class="review-post__text-field">
+            <label class="review-post__label-textarea" for="text"></label>
+            <textarea class="review-post__textarea" name="text" placeholder="Текст отзыва"></textarea>
+          </div>
+          <button class="review-post__btn" type="submit">Отправить отзыв</button>
+        </div>
+      </form>
+    </main>
+  </div>
 
-<footer class="footer">
+  <footer class="footer">
     <div class="footer__navigation">
-        <a href="https://yandex.ru/maps" target="_blank">Карты</a>
-        <a href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        <a href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        <a href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        <a href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+      <a href="https://yandex.ru/maps" target="_blank">Карты</a>
+      <a href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+      <a href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+      <a href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+      <a href="https://travel.yandex.ru" target="_blank">Путешествия</a>
     </div>
     <div class="autor">
-        © 2023
-        <a class="autor_link" href="https://github.com/OlgaSurnina">Сурнина Ольга</a>
+      © 2023
+      <a class="autor_link" href="https://github.com/OlgaSurnina">Сурнина Ольга</a>
     </div>
-</footer>
-</div>
-<script src="./js/form.js"></script>
+  </footer>
+  <script src="../js/form.js"></script>
 </body>
 
 </html>

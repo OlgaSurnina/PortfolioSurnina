@@ -1,8 +1,11 @@
 *, *:before, *:after {
-    box-sizing: border-box;}
+  box-sizing: border-box;
+}
+
 .body {
-    background-color: #2A2C2F;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    margin: auto;
+  margin: auto;
+  min-width: 320px;
+  background-color: #2A2C2F;
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
